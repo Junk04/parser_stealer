@@ -103,7 +103,7 @@ def process_archive(archive_path, password=None):
         print(f"Ошибка при открытии архива: {e}")
 
 def main():
-    print("Программа для извлечения паролей из архивов.")
+    print("Скрипт для извлечения учетных данных из архива с логами.")
     archive_path = input("Введите путь к архиву (.zip или .rar): ").strip()
     
     password = input("Введите пароль для архива (если не требуется, оставьте пустым): ").strip()
